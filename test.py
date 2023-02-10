@@ -11,4 +11,4 @@ def devide(x,y):
     return x/y
 
 def power(x,y):
-    pass
+    return x**y
