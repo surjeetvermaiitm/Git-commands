@@ -77,13 +77,16 @@
 | `git clone personal_account_forked-link`        | clone                                                                         |     |
 | `git remote add upstram sforked_source_link`    | add for pull req                                                              |     |
 | `git remote -v`                                 | to check for fetch and push option                                            |     |
-| `git push origin branch -f`                     | force push after removing any commit                                          |
-| `git checkout main`-->`git fetch --all --prune` | to fetch all the changes occured in other branch or upstram(source of forked) |
-| `method2 --> git reset --hard upstream/main`    | to fetch all the changes occured in other branch or upstram(source of forked) |
-| `git push origin main`                          | push to main                                                                  |
-| `git pull upstream main`                        | pull from upstream main                                                       |
-| `git rebase -i commit_id`                       | pick or squash (merge in prev pick)                                           |
-| `git reset --hard commit_id`                    | commit abobe mentioned commit will get removed (will go to unstaged area)     |
+| `git push origin branch -f`                     | force push after removing any commit                                          |     |
+| `git checkout main`-->`git fetch --all --prune` | to fetch all the changes occured in other branch or upstram(source of forked) |     |
+| `method2 --> git reset --hard upstream/main`    | to fetch all the changes occured in other branch or upstram(source of forked) |     |
+| `git push origin main`                          | push to main                                                                  |     |
+| `git pull upstream main`                        | pull from upstream main                                                       |     |
+| `git rebase -i commit_id`                       | pick or squash (merge in prev pick)                                           |     |
+| `git reset --hard commit_id`                    | commit abobe mentioned commit will get removed (will go to unstaged area)     |     |
+| inside feature branch `git rebase main`         | updsatew main commits in main feature                                         |     |
+| `git merge feature`                             | fast forward merge(read more about fast forward and recursive merge)          |     |
+| chery-pick merge explore                        | explore more                                                                  |     |
 
 Steps
 
