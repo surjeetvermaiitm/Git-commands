@@ -1,14 +1,14 @@
 def add(x,y):
-    return x+y
+    pass
 
 def subtract(x,y):
-    return x-y
+    pass
 
 def multiply(x,y):
-    return x*y
+    pass
 
 def devide(x,y):
-    return x/y
+    pass
 
 def power(x,y):
-    return x**y
+    pass
