@@ -61,32 +61,34 @@
 
 ### Important
 
-| Command                                         | Description                                                                   |     |
-| ----------------------------------------------- | ----------------------------------------------------------------------------- | --- |
-| `git restore --staged name.txt`                 | Unstage                                                                       |     |
-| `git log --graph --decorate --oneline`          | git history in tree form                                                      |     |
-| `git log`                                       | viw changes                                                                   |     |
-| `git reset commit_id`                           | commit abobe mentioned commit will get removed (will go to unstaged area)     |     |
-| `git stash`                                     | send staged code/file to back stage area                                      |     |
-| `git stash pop `                                | back to staged area                                                           |     |
-| `git stash clear`                               | delete file which are on back stage                                           | `   |
-| `git remote add origin git_repo_url`            | add remote to local                                                           |     |
-| `git remote -v`                                 | fetch and push available option                                               |     |
-| `git push origin [branch-name]`                 | push                                                                          |     |
-| `https://learngitbranching.js.org/`             | for git branch                                                                |     |
-| `git clone personal_account_forked-link`        | clone                                                                         |     |
-| `git remote add upstram sforked_source_link`    | add for pull req                                                              |     |
-| `git remote -v`                                 | to check for fetch and push option                                            |     |
-| `git push origin branch -f`                     | force push after removing any commit                                          |     |
-| `git checkout main`-->`git fetch --all --prune` | to fetch all the changes occured in other branch or upstram(source of forked) |     |
-| `method2 --> git reset --hard upstream/main`    | to fetch all the changes occured in other branch or upstram(source of forked) |     |
-| `git push origin main`                          | push to main                                                                  |     |
-| `git pull upstream main`                        | pull from upstream main                                                       |     |
-| `git rebase -i commit_id`                       | pick or squash (merge in prev pick)                                           |     |
-| `git reset --hard commit_id`                    | commit abobe mentioned commit will get removed (will go to unstaged area)     |     |
-| inside feature branch `git rebase main`         | updsatew main commits in main feature                                         |     |
-| `git merge feature`                             | fast forward merge(read more about fast forward and recursive merge)          |     |
-| chery-pick merge explore                        | explore more                                                                  |     |
+| Command                                                            | Description                                                                   |     |
+| ------------------------------------------------------------------ | ----------------------------------------------------------------------------- | --- |
+| `git restore --staged name.txt`                                    | Unstage                                                                       |     |
+| `git log --graph --decorate --oneline`                             | git history in tree form                                                      |     |
+| `git log`                                                          | viw changes                                                                   |     |
+| `git reset commit_id`                                              | commit abobe mentioned commit will get removed (will go to unstaged area)     |     |
+| `git stash`                                                        | send staged code/file to back stage area                                      |     |
+| `git stash pop `                                                   | back to staged area                                                           |     |
+| `git stash clear`                                                  | delete file which are on back stage                                           | `   |
+| `git remote add origin git_repo_url`                               | add remote to local                                                           |     |
+| `git remote -v`                                                    | fetch and push available option                                               |     |
+| `git push origin [branch-name]`                                    | push                                                                          |     |
+| `https://learngitbranching.js.org/`                                | for git branch                                                                |     |
+| `git clone personal_account_forked-link`                           | clone                                                                         |     |
+| `git remote add upstram sforked_source_link`                       | add for pull req                                                              |     |
+| `git remote -v`                                                    | to check for fetch and push option                                            |     |
+| `git push origin branch -f`                                        | force push after removing any commit                                          |     |
+| `git checkout main`-->`git fetch --all --prune`                    | to fetch all the changes occured in other branch or upstram(source of forked) |     |
+| `method2 --> git reset --hard upstream/main`                       | to fetch all the changes occured in other branch or upstram(source of forked) |     |
+| `git push origin main`                                             | push to main                                                                  |     |
+| `git pull upstream main`                                           | pull from upstream main                                                       |     |
+| `git rebase -i commit_id`                                          | pick or squash (merge in prev pick)                                           |     |
+| `git reset --hard commit_id`                                       | commit abobe mentioned commit will get removed (will go to unstaged area)     |     |
+| inside feature branch `git rebase main`                            | updsatew main commits in main feature                                         |     |
+| `git merge feature`                                                | fast forward merge(read more about fast forward and recursive merge)          |     |
+| chery-pick merge explore                                           | explore more                                                                  |
+| `git pull` and then `git checkout -b origin/branch_name_of_remote` | clone and switch to remote branch                                             |
+| `git pull` and then `git checkout origin/branch_name_of_remote`    | clone to remote branch                                                        |
 
 Steps
 
