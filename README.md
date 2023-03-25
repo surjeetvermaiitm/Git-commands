@@ -89,6 +89,7 @@
 | chery-pick merge explore                                           | explore more                                                                  |
 | `git pull` and then `git checkout -b origin/branch_name_of_remote` | clone and switch to remote branch                                             |
 | `git pull` and then `git checkout origin/branch_name_of_remote`    | clone to remote branch                                                        |
+| `git config --local -e`                                            | local configration of repo                                                    |
 
 Steps
 
