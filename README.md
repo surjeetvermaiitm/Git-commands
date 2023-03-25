@@ -13,6 +13,7 @@
 | ---------------------------------- | ------------------------------------------------- |
 | `git status`                       | Check status                                      |
 | `git add [file-name.txt]`          | Add a file to the staging area                    |
+| `git rm --cached [file-name]`      | unstaged the file                                 |
 | `git add -A`                       | Add all new and changed files to the staging area |
 | `git commit -m "[commit message]"` | Commit changes                                    |
 | `git rm -r [file-name.txt]`        | Remove a file (or folder)                         |
@@ -63,7 +64,8 @@
 
 | Command                                                            | Description                                                                   |     |
 | ------------------------------------------------------------------ | ----------------------------------------------------------------------------- | --- |
-| `git restore --staged name.txt`                                    | Unstage                                                                       |     |
+| `git restore name.txt`                                             | undo the changes in working area to last commit                               |
+| `git restore --staged name.txt`                                    | Unstage staged area to working area                                           |     |
 | `git log --graph --decorate --oneline`                             | git history in tree form                                                      |     |
 | `git log`                                                          | viw changes                                                                   |     |
 | `git reset commit_id`                                              | commit abobe mentioned commit will get removed (will go to unstaged area)     |     |
